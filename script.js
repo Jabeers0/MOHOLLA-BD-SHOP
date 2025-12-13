@@ -10,7 +10,7 @@ import { GoogleGenAI } from "@google/genai";
 
 // --- ENV SETUP ---
 // Replace 'YOUR_GEMINI_API_KEY' with your actual key for GitHub Pages
-window.process = { env: { API_KEY: 'YOUR_GEMINI_API_KEY' } };
+window.process = { env: { API_KEY: 'AIzaSyDLLhlTqQLbSzR-uPoUqtLN91o1XzK9wk4' } };
 
 // --- DATA & TYPES ---
 const PRODUCTS = [
