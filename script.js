@@ -145,7 +145,7 @@ const sendTicketToDiscord = async (ticket) => {
 
 // Gemini Service
 const apiKey = window.process?.env?.API_KEY || '';
-const ai = apiKey && apiKey !== 'YOUR_GEMINI_API_KEY' ? new GoogleGenAI({ apiKey }) : null;
+const ai = apiKey && apiKey !== 'AIzaSyDLLhlTqQLbSzR-uPoUqtLN91o1XzK9wk4' ? new GoogleGenAI({ apiKey }) : null;
 
 const SYSTEM_INSTRUCTION = `
 You are the AI Support Agent for "MOHOLLA BD SHOP". 
