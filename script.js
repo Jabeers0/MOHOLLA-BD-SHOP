@@ -130,16 +130,16 @@ const FAQS = [
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 const sendOrderToDiscord = async (order) => {
-  console.log("🔵 Connecting to Discord Bot...");
+  console.log("MTQ0OTUxNDEyNjc3MzcxOTI1MQ.GaZ9NL.5ytGdHP3YsVAxXwKEJvg_55s9UBFsvM8y7ZRhc");
   await delay(1500); 
-  console.log("✅ Sent to Discord Channel:", order.id);
+  console.log("1449514687300501765", order.id);
   return true;
 };
 
 const sendTicketToDiscord = async (ticket) => {
-  console.log("🔵 Connecting to Discord Support Bot...");
+  console.log("MTQ0OTUxNDEyNjc3MzcxOTI1MQ.GaZ9NL.5ytGdHP3YsVAxXwKEJvg_55s9UBFsvM8y7ZRhc");
   await delay(1500);
-  console.log("✅ Sent to Discord Support Channel:", ticket.id);
+  console.log("1449514738097590372", ticket.id);
   return true;
 };
 
