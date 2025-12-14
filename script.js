@@ -1,8 +1,8 @@
 import { GoogleGenAI } from "https://esm.sh/@google/genai@^1.33.0";
 
 // --- CONFIGURATION ---
-const DISCORD_WEBHOOK_URL = ""; // Add your Discord Webhook URL here
-const API_KEY = ""; // NOTE: In a real vanilla app, don't expose keys. This is for demo.
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1449608850880593950/j_QHB0X5IxUJ3i9cbYg5xHzemIpbynuwbfws1mUiZPZQlJfK5SzxyChQ3pPSmsIk5-rd"; // Add your Discord Webhook URL here
+const API_KEY = "AIzaSyDdBvu20lZDi94Ln_jOLbXs2PTRGxpxOZw"; // NOTE: In a real vanilla app, don't expose keys. This is for demo.
 
 // --- DATA ---
 const PRODUCTS = [
@@ -477,7 +477,7 @@ function renderCartContent() {
              <button type="button" onclick="setPayment('Nagad')" id="btn-nagad" class="p-3 rounded-xl border text-center transition-all font-bold border-slate-700 bg-slate-900 text-gray-400">নগদ</button>
            </div>
            <div class="bg-slate-900 p-4 rounded-xl text-sm text-gray-300 border border-white/5 text-center shadow-inner">
-              টাকা পাঠান: <span class="font-mono font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/10 ml-2">01700000000</span>
+              টাকা পাঠান: <span class="font-mono font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/10 ml-2">01757382315</span>
            </div>
          </div>
          <div class="space-y-3">
